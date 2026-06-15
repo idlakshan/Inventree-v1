@@ -1,0 +1,20 @@
+{
+  "extraPaths": [
+    "src/backend/InvenTree"
+  ],
+  "typeCheckingMode": "off",
+  "reportGeneralTypeIssues": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportOptionalSubscript": "none",
+  "reportPrivateImportUsage": "none",
+  "reportIncompatibleMethodOverride": "none",
+  "reportArgumentType": "none",
+  "reportAssignmentType": "none",
+  "reportReturnType": "none",
+  "reportOperatorIssue": "none",
+  "reportUntypedFunctionDecorator": "none",
+  "reportPossiblyUnboundVariable": "none",
+  "reportCallIssue": "none",
+  "reportMissingTypeStubs": "none"
+}

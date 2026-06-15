@@ -1,0 +1,6 @@
+# Local environment files containing sensitive credentials
+.env
+docker.dev.env
+
+# Local data volume containing DB files, media uploads, cache, and backups
+inventree-data/

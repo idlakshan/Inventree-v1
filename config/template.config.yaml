@@ -1,0 +1,32 @@
+# InvenTree Configuration
+# Ref: https://docs.inventree.org/en/stable/start/config/
+
+# Database configuration
+database:
+  engine: postgresql
+  name: dn_name
+  user: user_name
+  password: 'password'
+  host: localhost
+  port: 5432
+
+# Set debug to True for local development
+debug: True
+
+# Base URL for the InvenTree server
+site_url: 'http://localhost:8000'
+
+# Secret key for backend (InvenTree will generate one if not provided here)
+# secret_key: '...'
+
+# Media and Static file storage (Local directories)
+media_root: './inventree-data/media'
+static_root: './inventree-data/static'
+backup_dir: './inventree-data/backup'
+
+# Allowed hosts
+allowed_hosts:
+  - '*'
+
+# Frontend development server (for live updates)
+frontend_dev_server: 'http://localhost:5173'
